@@ -1,0 +1,45 @@
+I, [2018-04-02T17:05:28.978887 #5489]  INFO -- default-winrm: -----> Converging <default-winrm>...
+I, [2018-04-02T17:05:28.979392 #5489]  INFO -- default-winrm: Preparing files for transfer
+I, [2018-04-02T17:05:28.979541 #5489]  INFO -- default-winrm: Preparing dna.json
+I, [2018-04-02T17:05:28.979790 #5489]  INFO -- default-winrm: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2018-04-02T17:05:39.374216 #5489]  INFO -- default-winrm: Removing non-cookbook files before transfer
+I, [2018-04-02T17:05:39.376198 #5489]  INFO -- default-winrm: Preparing validation.pem
+I, [2018-04-02T17:05:39.376475 #5489]  INFO -- default-winrm: Preparing client.rb
+E, [2018-04-02T17:05:39.380837 #5489] ERROR -- default-winrm: Converge failed on instance <default-winrm>.
+E, [2018-04-02T17:05:39.380969 #5489] ERROR -- default-winrm: ------Exception-------
+E, [2018-04-02T17:05:39.381005 #5489] ERROR -- default-winrm: Class: RuntimeError
+E, [2018-04-02T17:05:39.381031 #5489] ERROR -- default-winrm: Message: password is a required option
+E, [2018-04-02T17:05:39.381051 #5489] ERROR -- default-winrm: ----------------------
+E, [2018-04-02T17:05:39.381070 #5489] ERROR -- default-winrm: ------Backtrace-------
+E, [2018-04-02T17:05:39.381089 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/winrm-2.2.3/lib/winrm/connection_opts.rb:73:in `validate_required_fields'
+E, [2018-04-02T17:05:39.381108 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/winrm-2.2.3/lib/winrm/connection_opts.rb:61:in `validate'
+E, [2018-04-02T17:05:39.381127 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/winrm-2.2.3/lib/winrm/connection_opts.rb:33:in `create_with_defaults'
+E, [2018-04-02T17:05:39.381146 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/winrm-2.2.3/lib/winrm/connection.rb:66:in `configure_connection_opts'
+E, [2018-04-02T17:05:39.381165 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/winrm-2.2.3/lib/winrm/connection.rb:29:in `initialize'
+E, [2018-04-02T17:05:39.381185 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:363:in `new'
+E, [2018-04-02T17:05:39.381204 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:363:in `connection'
+E, [2018-04-02T17:05:39.381223 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:335:in `unelevated_session'
+E, [2018-04-02T17:05:39.381243 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:238:in `execute_with_exit_code'
+E, [2018-04-02T17:05:39.381262 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:107:in `execute'
+E, [2018-04-02T17:05:39.381281 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/provisioner/base.rb:71:in `block in call'
+E, [2018-04-02T17:05:39.381301 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/base.rb:98:in `initialize'
+E, [2018-04-02T17:05:39.381320 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:87:in `initialize'
+E, [2018-04-02T17:05:39.381339 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:445:in `new'
+E, [2018-04-02T17:05:39.381358 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:445:in `create_new_connection'
+E, [2018-04-02T17:05:39.381377 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/transport/winrm.rb:74:in `connection'
+E, [2018-04-02T17:05:39.381397 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/provisioner/base.rb:70:in `call'
+E, [2018-04-02T17:05:39.381420 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-04-02T17:05:39.381440 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-04-02T17:05:39.381460 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-04-02T17:05:39.381479 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-04-02T17:05:39.381513 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:497:in `action'
+E, [2018-04-02T17:05:39.381535 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-04-02T17:05:39.381555 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-04-02T17:05:39.381575 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `each'
+E, [2018-04-02T17:05:39.381594 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-04-02T17:05:39.381613 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-04-02T17:05:39.381632 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-04-02T17:05:39.381652 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-04-02T17:05:39.381671 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-04-02T17:05:39.381690 #5489] ERROR -- default-winrm: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2018-04-02T17:05:39.381709 #5489] ERROR -- default-winrm: ----End Backtrace-----

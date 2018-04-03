@@ -1,0 +1,33 @@
+---
+driver:
+  name: ec2
+  region: us-west-2
+  aws_ssh_key_id: sowjanya-reantrainee
+  image_id: ami-651f811d
+  instance_type: t2.micro
+  subnet_id: subnet-7b010f3d
+  security_group_ids: ["sg-2b66b455"]
+  tags:
+    Name: test-chef-windows-ad
+    Owner: sowjanya.makkena
+    Project: Learning
+    Environment: Testing
+    ExpirationDate: "2018-04-04"
+
+transport:
+  ssh_key: /home/chef/sowjanya-reantrainee.pem
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: Windows-2012r2
+
+suites:
+  - name: default
+    run_list:
+      - recipe[windows_ad::default]
+    verifier:
+      inspec_tests:
+        - test/integration/default
+    attributes:

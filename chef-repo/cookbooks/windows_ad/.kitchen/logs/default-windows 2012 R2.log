@@ -1,0 +1,64 @@
+I, [2018-04-02T14:14:22.315992 #4135]  INFO -- default-windows 2012 R2: -----> Creating <default-windows 2012 R2>...
+I, [2018-04-02T14:14:24.081734 #4135]  INFO -- default-windows 2012 R2: Detected platform: windows version 2012r2rtm on x86_64. Instance Type: t2.micro. Default username: administrator (default).
+I, [2018-04-02T14:14:24.082217 #4135]  INFO -- default-windows 2012 R2: If you are not using an account that qualifies under the AWS
+free-tier, you may be charged to run these suites. The charge
+should be minimal, but neither Test Kitchen nor its maintainers
+are responsible for your incurred costs.
+
+I, [2018-04-02T14:14:25.500736 #4135]  INFO -- default-windows 2012 R2: Instance <i-0c0566900a3e47777> requested.
+I, [2018-04-02T14:14:25.501411 #4135]  INFO -- default-windows 2012 R2: Polling AWS for existence, attempt 0...
+I, [2018-04-02T14:14:26.124552 #4135]  INFO -- default-windows 2012 R2: Attempting to tag the instance, 0 retries
+I, [2018-04-02T14:14:27.274914 #4135]  INFO -- default-windows 2012 R2: EC2 instance <i-0c0566900a3e47777> created.
+I, [2018-04-02T14:14:27.275549 #4135]  INFO -- default-windows 2012 R2: Waited 0/600s for instance <i-0c0566900a3e47777> volumes to be ready.
+I, [2018-04-02T14:14:30.234525 #4135]  INFO -- default-windows 2012 R2: Waited 0/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:14:36.336935 #4135]  INFO -- default-windows 2012 R2: Waited 5/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:14:43.295607 #4135]  INFO -- default-windows 2012 R2: Waited 10/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:14:50.298695 #4135]  INFO -- default-windows 2012 R2: Waited 15/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:14:57.820700 #4135]  INFO -- default-windows 2012 R2: Waited 20/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:05.277147 #4135]  INFO -- default-windows 2012 R2: Waited 25/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:13.270324 #4135]  INFO -- default-windows 2012 R2: Waited 30/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:20.812806 #4135]  INFO -- default-windows 2012 R2: Waited 35/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:28.323353 #4135]  INFO -- default-windows 2012 R2: Waited 40/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:35.868933 #4135]  INFO -- default-windows 2012 R2: Waited 45/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:43.374323 #4135]  INFO -- default-windows 2012 R2: Waited 50/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:50.846218 #4135]  INFO -- default-windows 2012 R2: Waited 55/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:15:58.266623 #4135]  INFO -- default-windows 2012 R2: Waited 60/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:05.741412 #4135]  INFO -- default-windows 2012 R2: Waited 65/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:13.204209 #4135]  INFO -- default-windows 2012 R2: Waited 70/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:20.773100 #4135]  INFO -- default-windows 2012 R2: Waited 75/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:28.495952 #4135]  INFO -- default-windows 2012 R2: Waited 80/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:36.052382 #4135]  INFO -- default-windows 2012 R2: Waited 85/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:43.497509 #4135]  INFO -- default-windows 2012 R2: Waited 90/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:50.969952 #4135]  INFO -- default-windows 2012 R2: Waited 95/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:16:58.963553 #4135]  INFO -- default-windows 2012 R2: Waited 100/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:17:06.422963 #4135]  INFO -- default-windows 2012 R2: Waited 105/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:17:13.850307 #4135]  INFO -- default-windows 2012 R2: Waited 110/600s for instance <i-0c0566900a3e47777> to become ready.
+I, [2018-04-02T14:17:15.773229 #4135]  INFO -- default-windows 2012 R2: Waited 0/600s for instance <i-0c0566900a3e47777> to fetch windows admin password.
+E, [2018-04-02T14:17:16.305152 #4135] ERROR -- default-windows 2012 R2: Create failed on instance <default-windows 2012 R2>.
+E, [2018-04-02T14:17:16.305494 #4135] ERROR -- default-windows 2012 R2: ------Exception-------
+E, [2018-04-02T14:17:16.305549 #4135] ERROR -- default-windows 2012 R2: Class: TypeError
+E, [2018-04-02T14:17:16.305570 #4135] ERROR -- default-windows 2012 R2: Message: no implicit conversion of nil into String
+E, [2018-04-02T14:17:16.305592 #4135] ERROR -- default-windows 2012 R2: ----------------------
+E, [2018-04-02T14:17:16.305613 #4135] ERROR -- default-windows 2012 R2: ------Backtrace-------
+E, [2018-04-02T14:17:16.305652 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:554:in `expand_path'
+E, [2018-04-02T14:17:16.305679 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:554:in `block in fetch_windows_admin_password'
+E, [2018-04-02T14:17:16.305702 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:563:in `with_request_limit_backoff'
+E, [2018-04-02T14:17:16.305723 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:553:in `fetch_windows_admin_password'
+E, [2018-04-02T14:17:16.305744 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:273:in `create'
+E, [2018-04-02T14:17:16.305766 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:469:in `public_send'
+E, [2018-04-02T14:17:16.305787 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:469:in `block in perform_action'
+E, [2018-04-02T14:17:16.305808 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-04-02T14:17:16.305829 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-04-02T14:17:16.305850 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-04-02T14:17:16.305871 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:497:in `action'
+E, [2018-04-02T14:17:16.305896 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:469:in `perform_action'
+E, [2018-04-02T14:17:16.305918 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:379:in `create_action'
+E, [2018-04-02T14:17:16.305939 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-04-02T14:17:16.305960 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `each'
+E, [2018-04-02T14:17:16.305981 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-04-02T14:17:16.306003 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:124:in `create'
+E, [2018-04-02T14:17:16.306032 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-04-02T14:17:16.306054 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-04-02T14:17:16.306076 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-04-02T14:17:16.306100 #4135] ERROR -- default-windows 2012 R2: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2018-04-02T14:17:16.306122 #4135] ERROR -- default-windows 2012 R2: ----End Backtrace-----

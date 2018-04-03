@@ -1,0 +1,6 @@
+---
+username: administrator
+server_id: i-052c9f6cc42264f8f
+hostname: ec2-34-216-129-2.us-west-2.compute.amazonaws.com
+last_error: RuntimeError
+last_action: create

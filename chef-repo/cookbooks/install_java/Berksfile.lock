@@ -1,0 +1,7 @@
+DEPENDENCIES
+  install_java
+    path: .
+    metadata: true
+
+GRAPH
+  install_java (0.1.0)

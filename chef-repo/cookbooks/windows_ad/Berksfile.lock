@@ -1,0 +1,11 @@
+DEPENDENCIES
+  windows_ad
+    path: .
+    metadata: true
+
+GRAPH
+  ls_windows_ad (0.5.0)
+    windows (>= 0.0.0)
+  windows (4.1.4)
+  windows_ad (0.1.0)
+    ls_windows_ad (~> 0.5.0)
